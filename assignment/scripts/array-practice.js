@@ -79,3 +79,6 @@ console.log('The animals are now', animalArray);
 
 // 4.d TODO: Remove the food at the beginning of your array &
 //     log both the food removed and the updated array
+removedFood = favoriteFoods.shift();
+console.log('Removed the first favorite food', removedFood);
+console.log('My favorite foods are now', favoriteFoods);
